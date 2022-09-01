@@ -1,0 +1,419 @@
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+  background-color: #fff0ed;
+}
+
+a {
+  text-decoration: none;
+}
+.btn2,
+.btn {
+  background-color: #5bacc3;
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 1rem 3.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  text-decoration: none;
+}
+/* ///Headings/// */
+
+h2 {
+  font-size: 43px;
+  font-weight: lighter;
+  text-align: center;
+  margin: auto;
+  display: inline-block;
+}
+h5 {
+  font-weight: lighter;
+  display: inline-block;
+}
+p {
+  font-size: 21px;
+}
+
+h1,
+h2 {
+  font-size: 65px;
+  font-weight: 300;
+  width: fit-content;
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+h1 {
+  padding-bottom: 1rem;
+}
+.nitro-title {
+  text-decoration: none;
+  font-size: 4rem;
+  font-weight: 300;
+  color: black;
+}
+
+/* ///navbar//// */
+.menu-nav {
+  font-size: 21px;
+  font-weight: 600;
+}
+
+nav {
+  display: inline-block;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  padding-left: 3rem;
+}
+
+#important {
+  color: #5bacc3;
+}
+.nav-box {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.landing-msg {
+  box-sizing: border-box;
+  width: 25rem;
+}
+.nav-item {
+  padding: 1rem;
+}
+
+.menu-nav {
+  padding-left: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-page {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* ///Landing page//// */
+.button-border {
+  border: 0.13rem black solid;
+  padding: 2rem 7rem;
+  position: relative;
+  top: -24%;
+  right: 54%;
+  opacity: 1;
+  background-color: transparent;
+}
+.text {
+  margin-bottom: 1rem;
+}
+
+.landing-left-cont {
+  width: 50vw;
+  box-sizing: border-box;
+}
+
+.landing-left {
+  width: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 50vh;
+}
+
+.landing-right {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 2rem;
+}
+
+.bag-img {
+  width: 20rem;
+}
+
+.landing-items {
+  box-sizing: border-box;
+  background-color: #fff0ed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-page {
+  background-color: #fff0ed;
+  padding-top: 1rem;
+}
+
+.landing-display {
+  padding-bottom: 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #5bacc3;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: 3rem;
+}
+
+/* ///cards/// */
+
+.products {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.product-img {
+  min-height: 16rem;
+  box-sizing: border-box;
+  margin: 1rem 0rem;
+}
+
+.price-container {
+  background-color: #fff0ed;
+}
+
+product-img {
+  min-height: 15rem;
+  max-height: 34rem;
+}
+
+.card-price {
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding-right: 1rem;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+.card-title {
+  width: 100%;
+  padding-top: 3rem;
+  background-color: #f7f7f7;
+}
+
+.cards {
+  background-color: white;
+  border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+  box-shadow: 0 2px 60px 0 rgba(0, 0, 0, 0.4);
+  min-width: 22vw;
+  margin: 0 2rem;
+  box-sizing: border-box;
+}
+
+.card-details {
+  width: 100%;
+  background-color: #fff0ed;
+  padding: 1rem;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.lower-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff0ed;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-header {
+  font-size: 2rem;
+  padding-top: 1rem;
+  font-weight: 300;
+}
+
+.card-amount {
+  font-size: 1rem;
+  color: #909090;
+  font-weight: 500;
+  padding-bottom: 1rem;
+}
+
+.card-price {
+  color: #5bacc3;
+}
+
+.products {
+  text-align: center;
+  background-color: #f7f7f7;
+  height: 50vh;
+}
+
+.button-border2 {
+  border: 0.1rem black solid;
+  padding: 2rem 8em;
+  position: relative;
+  top: -13%;
+  right: 0.5%;
+  opacity: 1;
+  background-color: transparent;
+}
+/* ///Can section/// */
+.can-container {
+  height: 70vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
+}
+.can-container__left {
+  width: 33%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.icon {
+  width: 4rem;
+}
+
+.can-container__right {
+  background-image: url(../assets/images/coldbrewbackground.png);
+  width: 25rem;
+  height: 25rem;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.can-container__icon-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.can-container__p {
+  font-size: 1.2rem;
+}
+
+.can-container__head {
+  font-size: 4rem;
+}
+
+.button-border3 {
+  border: 0.25rem #5bacc3 solid;
+  padding: 12.5rem 14.5em;
+  position: absolute;
+  top: 201%;
+  right: 15%;
+  opacity: 1;
+  background-color: transparent;
+}
+
+/* ///discount box/// */
+
+.discount {
+  background-color: #393939;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 400;
+  padding: 2rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.discount-box {
+  font-weight: 500;
+  font-size: 3rem;
+  display: flex;
+}
+
+.discount-section {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.code {
+  font-weight: 700;
+}
+
+/* ///footer/// */
+
+.address,
+.hours,
+.social {
+  display: inline-block;
+  padding: 2rem;
+  text-align: left;
+}
+
+.dates {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.logo {
+  min-width: 3rem;
+  max-width: 8rem;
+}
+
+footer {
+  background-color: #fff0ed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 30vh;
+}
+
+.text {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.footer-icon2,
+.footer-icon1 {
+  width: 5%;
+  opacity: 0.5;
+}
+
+.footer-icon1 {
+  position: relative;
+  bottom: 3.2rem;
+  right: 4rem;
+}
+
+.footer-icon2 {
+  position: relative;
+  bottom: -2rem;
+  right: -2rem;
+}

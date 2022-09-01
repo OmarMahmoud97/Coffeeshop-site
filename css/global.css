@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+.price {
+  color: #5bacc3;
+}
+.menu-nav {
+  list-style: none;
+}
+
+.nav-items1 {
+  color: #5bacc3;
+}
+
+.nav-items2,
+.nav-items3 {
+  color: black;
+}
+ul > li {
+  display: inline-block;
+}
+.nav-bar,
+.top-page {
+  padding-left: 0.7rem;
+}

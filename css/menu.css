@@ -1,0 +1,171 @@
+/*//////// Headings ////////*/
+
+h1,
+h2 {
+  font-size: 4.4rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+
+h3 {
+  font-size: 2.6rem;
+  font-weight: 400;
+  text-align: center;
+}
+
+h4 {
+  font-size: 3.5rem;
+  font-weight: lighter;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.list-title{
+  padding-top: 1.8rem;
+}
+.button-border{
+  border: 0.3rem #5bacc3 solid;
+  padding: 4.6rem 9rem;
+  position: absolute;
+  bottom: 47%;
+  right: 40.5%;
+  background-color: transparent;
+}
+/* ////////navbar//////// */
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff0ed;
+  align-items: center;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  padding: 2rem;
+}
+
+.food-nav {
+  background-color: #393939;
+  color: white;
+  min-width: 100%;
+  max-width: 100%;
+  height: 4rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-nav {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-right: 2rem;
+}
+
+.menu-header {
+  font-weight: 100;
+  background-color: #393939;
+  width: 20%;
+  color: white;
+  text-align: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.8rem 0 1.8rem 0;
+}
+
+.menu-landing {
+  background-image: url("../assets/images/coffee-circle.jpg");
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-landing__container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-logo {
+  width: 4rem;
+  margin: 0;
+  padding: 0;
+}
+
+.logo-fig {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  align-self: flex-start;
+}
+
+/* ////food catagories////// */
+
+#hot-drinks,
+#pastries {
+  background-color: #fff0ed;
+}
+
+#cold-drinks {
+  background-color: #f7f7f7;
+  margin: 0;
+}
+
+#hot-drinks,
+#pastries {
+  padding-bottom: 2.4rem;
+}
+
+.food-cat,
+.list-line {
+  padding: 0.5rem;
+}
+.list-line {
+  color: #5bacc3;
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+.logo-fig {
+  padding: 0;
+  margin: 0;
+}
+
+.food-cat {
+  text-decoration: none;
+  color: white;
+}
+
+.description {
+  max-width: 35%;
+  min-width: 33%;
+  font-size: 1.3rem;
+  font-style: italic;
+  font-weight: 500;
+  text-align: center;
+  margin: auto;
+}
+
+.price {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+  padding-bottom: 1.2rem;
+}
+
+.hot-drinks {
+  margin: 0;
+}
