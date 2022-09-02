@@ -25,9 +25,9 @@ html {
 .nav-items3 {
   color: black;
 }
-ul > li {
+/* ul > li {
   display: inline-block;
-}
+} */
 .nav-bar,
 .top-page {
   padding-left: 0.7rem;
